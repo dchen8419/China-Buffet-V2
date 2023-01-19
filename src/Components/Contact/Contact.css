@@ -1,13 +1,32 @@
-.contact {
-    margin: auto;
-    width: 75%;
-    border: 3px solid goldenrod;
-    padding: 10px;
-    height: 88vh;
-}
-
 .image {
     margin: auto;
     display: block;
+    border: 3px solid goldenrod;
+    width: 65em;
+    height: 28em;
 }
 
+.container {
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.information {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.hours {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
