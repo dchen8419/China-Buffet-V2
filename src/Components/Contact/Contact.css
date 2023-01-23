@@ -1,32 +1,26 @@
 .image {
     margin: auto;
     display: block;
-    border: 3px solid goldenrod;
+    border: 5px solid goldenrod;
     width: 65em;
     height: 28em;
 }
 
 .container {
+    display: flex;
+    background-color: lightgrey;
+    align-content: center;
+    justify-content: center;
     text-align: center;
 }
 
-.contact {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    background-color: lightgray;
+.container div {
+    background-color: azure;
+    align-items: center;
+    margin: 60px;
+    width: 100%;
 }
 
-.information {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    background-color: lightgray;
-}
-
-.hours {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
+.back-ground {
     background-color: lightgray;
 }
