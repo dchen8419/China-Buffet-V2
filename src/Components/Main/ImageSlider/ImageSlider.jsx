@@ -22,7 +22,7 @@ const ImageSlider = ({slides}) => {
 
     return (
         <div className='front-page-background'>
-            <h1 className='page-name'>New York Style Chinese Food</h1>
+            <h1 className='page-name'>Welcome to China Buffet</h1>
             <section className='slider'>
             <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
             <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide}/>

@@ -8,12 +8,12 @@ export const Footer = () => {
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
                     <h2>About Us</h2>
-                    <a href="http://localhost:3000/contact">Careers</a>
+                    <a href="https://ubiquitous-centaur-265e8c.netlify.app/contact">Careers</a>
                 </div>
                 <div className='footer-link-items'>
                     <h2>Contact Us</h2>
-                    <a href="http://localhost:3000/contact">Contact</a>
-                    <a href="http://localhost:3000/contact">Support</a>
+                    <a href="https://ubiquitous-centaur-265e8c.netlify.app/contact">Contact</a>
+                    <a href="https://ubiquitous-centaur-265e8c.netlify.app/contact">Support</a>
                 </div>
             </div>
         </div>
