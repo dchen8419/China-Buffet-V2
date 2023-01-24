@@ -64,3 +64,10 @@
     margin-top: 0!important;
     margin-bottom: 0!important;
 }
+
+@media (max-width: 844px) {
+    .image {
+        width: 200em;
+        height: 200em;
+    }
+}
