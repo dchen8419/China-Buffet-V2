@@ -6,7 +6,7 @@ function Contact() {
     return (
         <div>
             <div className='back-ground'>
-                <img alt="greatwall" className='image' src={GreatWall}/>
+                <img alt="greatwall" className='greatwall-image' src={GreatWall}/>
             </div>
             <div className='container'>
                 <div>
