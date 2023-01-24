@@ -5,3 +5,18 @@
     padding: 10px;
     height: 70vh;
 }
+
+.temple-of-heave-image {
+    margin: auto;
+    display: block;
+    border: 5px solid goldenrod;
+}
+
+.about-spacing {
+    line-height: 2;
+    text-align: left;
+}
+
+.about-us {
+    text-align: center;
+}
