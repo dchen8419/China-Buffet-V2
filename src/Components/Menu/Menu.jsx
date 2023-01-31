@@ -1,8 +1,15 @@
 import React from 'react'
+import Card from './Card/Card'
 
 function Menu() {
     return (
-        <div>Menu</div>
+        <div>
+            <div>
+                <Card 
+                    label="Appetizers" item="Shrimp Egg Roll"
+                />
+            </div>
+        </div>
     )
 }
 
