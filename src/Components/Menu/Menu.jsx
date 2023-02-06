@@ -77,28 +77,72 @@ function Menu() {
                             <Chef 
                                 item={
                                     [
-                                        {C1: "General Tso's Chicken"},
-                                        {D1: "Chunks of tender chicken marinated in a hot and spicy red sauce."},
-                                        {C2: "Sesame Chicken"},
-                                        {D2: "Chunks of tender chicken marinated in a sweet sauce with sesame seeds."},
-                                        {C3: "Happy Family"},
-                                        {D3: "Shrimp, scallops, chicken and ceef sauteed in a brown sauce."},
-                                        {C4: "Triple Delight"},
-                                        {D4: "Shrimp, scallops and chicken sauteed in a spicy garlic sauce."},
-                                        {C5: "Mongolian Beef"},
-                                        {D5: "Sliced Beef with onions in a spicy brown sauce."},
-                                        {C6: "Beef with Scallops"},
-                                        {D6: "Slice beef and sea scallops sauteed in a brown sauce with mixed vegetables."},
-                                        {C7: "Seafood Delight"},
-                                        {D7: "Jumbo shrimp, scallops and crab meat with mixed Chinese vegetables."},
-                                        {C8: "Bonless Chicken"},
-                                        {D8: "Sliced bonless fried chicken topped with mixed vegetables in a brown sauce."},
-                                        {C9: "Lemon Chicken"},
-                                        {D9: "Sliced boneless fried chickeen topped with lemon flavored sauce."},
-                                        {C10: "Hunan Combo"},
-                                        {D10: "Diced Chicken and baby shrimp sauteed in a spicy Hunan suace."},
-                                        {C11: "Sweet and Sour Delight"},
-                                        {D11: "Combination of fried chicken, shrimp and pork with sweet and sour sauce"}
+                                        {
+                                            id: 1,
+                                            MenuNumber: "C1", 
+                                            Name: "General Tso's Chicken", 
+                                            Description: "Chunks of tender chicken marinated in a hot and spicy red sauce."
+                                        },
+                                        {
+                                            id: 2,
+                                            MenuNumber: "C2",
+                                            Name: "Sesame Chicken",
+                                            Description: "Chunks of tender chicken marinated in a sweet sauce with sesame seeds.",
+                                        },
+                                        {
+                                            id: 3,
+                                            MenuNumber: "C3",
+                                            Name: "Happy Family",
+                                            Description: "Shrimp, scallops, chicken and ceef sauteed in a brown sauce.",
+                                        },
+                                        {
+                                            id: 4,
+                                            MenuNumber: "C4",
+                                            Name: "Triple Delight",
+                                            Description: "Shrimp, scallops and chicken sauteed in a spicy garlic sauce.",
+                                        },
+                                        {
+                                            id: 5,
+                                            MenuNumber: "C5",
+                                            Name: "Mongolian Beef",
+                                            Description: "Sliced Beef with onions in a spicy brown sauce.",
+                                        },
+                                        {
+                                            id: 6,
+                                            MenuNumber: "C6",
+                                            Name: "Beef with Scallops",
+                                            Description: "Slice beef and sea scallops sauteed in a brown sauce with mixed vegetables.",
+                                        },
+                                        {
+                                            id: 7,
+                                            MenuNumber: "C7",
+                                            Name: "Seafood Delight",
+                                            Description: "Jumbo shrimp, scallops and crab meat with mixed Chinese vegetables.",
+                                        },
+                                        {
+                                            id: 8,
+                                            MenuNumber: "C8",
+                                            Name: "Bonless Chicken",
+                                            Description: "Sliced bonless fried chicken topped with mixed vegetables in a brown sauce.",
+                                        },
+                                        {
+                                            id: 9,
+                                            MenuNumber: "C9",
+                                            Name: "Lemon Chicken",
+                                            Description: "Sliced boneless fried chickeen topped with lemon flavored sauce.",
+                                        },
+                                        {
+                                            id: 10,
+                                            MenuNumber: "C10",
+                                            Name: "Hunan Combo",
+                                            Description: "Diced Chicken and baby shrimp sauteed in a spicy Hunan suace.",
+                                        },
+                                        {
+                                            id: 11,
+                                            MenuNumber: "C11",
+                                            Name: "Sweet and Sour Delight",
+                                            Description: "Combination of fried chicken, shrimp and pork with sweet and sour sauce",
+                                        }
                                     ]
                                 }
                             />
