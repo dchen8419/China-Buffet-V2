@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from './Card/Card'
 import Chef from './CSpecial/Chef'
+import Dinner from './DSpecial/Dinner'
+import Lunch from './Lunch/Lunch'
 
 function Menu() {
     return (
@@ -233,6 +235,7 @@ function Menu() {
                                 }
                             />
                         </ul>
+                            
                         <ul>
                             <Card 
                                 label="Sweet & Sour" item={
@@ -253,6 +256,163 @@ function Menu() {
                                 }
                             />
                         </ul>
+                            <ul>
+                                <Dinner 
+                                    item={
+                                        [
+                                            {
+                                                id: 12,
+                                                DinnerNumber: 'D1',
+                                                DinnerCombo: 'Chicken Wings with Shrimp Fried Rice'
+                                            },
+                                            {
+                                                id: 13,
+                                                DinnerNumber: 'D2',
+                                                DinnerCombo: 'B.B.Q. Spare Ribs'
+                                            },
+                                            {
+                                                id: 14,
+                                                DinnerNumber: 'D3',
+                                                DinnerCombo: 'Chicken with Broccoli'
+                                            },
+                                            {
+                                                id: 15,
+                                                DinnerNumber: 'D4',
+                                                DinnerCombo: 'Beef with Broccoli'
+                                            },
+                                            {
+                                                id: 16,
+                                                DinnerNumber: 'D5',
+                                                DinnerCombo: 'Pepper Steak with Onions'
+                                            },
+                                            {
+                                                id: 17,
+                                                DinnerNumber: 'D6',
+                                                DinnerCombo: 'Chow Mein (Chicken, Beef, or Pork)',
+                                            },
+                                            {
+                                                id: 18,
+                                                DinnerNumber: 'D7',
+                                                DinnerCombo: 'Sweet & Sour (Chicken or Pork',
+                                            },
+                                            {
+                                                id: 19,
+                                                DinnerNumber: 'D8',
+                                                DinnerCombo: "Szechuan Beef or Chicken",
+                                            },
+                                            {
+                                                id: 20,
+                                                DinnerNumber: 'D9',
+                                                DinnerCombo: "Shrimp with Garlic Sauce",
+                                            },
+                                            {
+                                                id: 21,
+                                                DinnerNumber: 'D10',
+                                                DinnerCombo: "Sesame Chicken",
+                                            },
+                                            {
+                                                id: 22,
+                                                DinnerNumber: 'D11',
+                                                DinnerCombo: 'General Tso\'s Chicken',
+                                            },
+                                            {
+                                                id: 23,
+                                                DinnerNumber: 'D12',
+                                                DinnerCombo: 'Kung Po Chicken or Shrimp',
+                                            },
+                                            {
+                                                id: 24,
+                                                DinnerNumber: 'D13',
+                                                DinnerCombo: 'Chicken, Pork or Beef with Mixed Vegetables',
+                                            },
+                                            {
+                                                id: 25,
+                                                DinnerNumber: 'D14',
+                                                DinnerCombo: 'Lo Mein (Chicken, Beef, Pork or Shrimp',
+                                            },
+                                            {
+                                                id: 26,
+                                                DinnerNumber: 'D15',
+                                                DinnerCombo: 'Moo Goo Gai Pan',
+                                            },
+                                        ]
+                                    }
+                                
+                                />
+                            </ul>
+                            <ul>
+                                <Lunch 
+                                    item={
+                                        [
+                                            {
+                                                id: 27,
+                                                LunchNumber: 'L1',
+                                                LunchCombo: 'Chicken Wings'
+                                            },
+                                            {
+                                                id: 28,
+                                                LunchNumber: 'L2',
+                                                LunchCombo: 'Spare Ribs'
+                                            },
+                                            {
+                                                id: 29,
+                                                LunchNumber: 'L3',
+                                                LunchCombo: 'Beef or Chicken with Broccoli'
+                                            },
+                                            {
+                                                id: 30,
+                                                LunchNumber: 'L4',
+                                                LunchCombo: 'Sweet & Sour Chicken'
+                                            },
+                                            {
+                                                id: 31,
+                                                LunchNumber: 'L5',
+                                                LunchCombo: 'Lo Mein (Chicken, Pork, or Beef)'
+                                            },
+                                            {
+                                                id: 32,
+                                                LunchNumber: 'L6',
+                                                LunchCombo: 'Pepper Steak with Onion'
+                                            },
+                                            {
+                                                id: 33,
+                                                LunchNumber: 'L7',
+                                                LunchCombo: 'Szechuan Chicken or Beef'
+                                            },
+                                            {
+                                                id: 34,
+                                                LunchNumber: 'L8',
+                                                LunchCombo: 'Kung Po Chicken'
+                                            },
+                                            {
+                                                id: 35,
+                                                LunchNumber: 'L9',
+                                                LunchCombo: 'Genertal Tso\'s Chicken'
+                                            },
+                                            {
+                                                id: 36,
+                                                LunchNumber: 'L10',
+                                                LunchCombo: 'Chicken with Garlic Sauce'
+                                            },
+                                            {
+                                                id: 37,
+                                                LunchNumber: 'L11',
+                                                LunchCombo: 'Curry Chicken or Beef'
+                                            },
+                                            {
+                                                id: 38,
+                                                LunchNumber: 'L12',
+                                                LunchCombo: 'Chicken, Pork or Beef with Mixed Vegetables'
+                                            },
+                                            {
+                                                id: 39,
+                                                LunchNumber: 'L13',
+                                                LunchCombo: 'Sesame Chicken'
+                                            },
+                                        ]
+                                    }
+                                />
+                            </ul>
                 </div>
             </div>
         </div>
