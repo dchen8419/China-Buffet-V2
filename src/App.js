@@ -9,6 +9,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Contact from './Components/Contact/Contact';
 import Menu from './Components/Menu/Menu';
 import About from './Components/About/About'
+import { Footer } from './Components/Footer/Footer';
 
 
 function App() {
@@ -21,9 +22,9 @@ function App() {
         <Route path="/menu" element={<Menu />}/>
         <Route path="/about" element={<About />}/>
       </Routes>
+      <Footer />
     </div>
       
-
   );
 }
 
