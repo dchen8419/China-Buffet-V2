@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import templeofheaven from '../../Assets/TempleOfHeaven.png'
-import { Footer } from '../Footer/Footer'
 
 function About() {
     return (
@@ -19,9 +18,6 @@ function About() {
                 he moved to Dillion, SC to venture into China Buffet continuing to share and perfect his skills 
                 and talent as a Chef.
             </h3>
-            <div>
-                <Footer />
-            </div>
         </div>
     )
 }

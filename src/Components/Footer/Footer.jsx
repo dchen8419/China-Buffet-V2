@@ -21,11 +21,36 @@ export const Footer = () => {
             <div className='social-media-wrap'>
                 <div className='footer-logo'>
                 </div>
-                <small className='website-rights'>David Chen © 2023</small>
-                <div className='social-icons'>
-                </div>
+                <small className='website-rights'>David Chen &copy;{new Date().getFullYear()} Luna Media LLC | All right reserved | Terms and Conditions | Privacy</small>
             </div>
         </section>
     </div>
     )
 }
+
+// export const Footer = () => {
+//     return (
+//         <div className='footer-container'>
+//             <div>
+//                 <h1>Something</h1>
+//                 <ul>
+//                     <li>One</li>
+//                     <li>Two</li>
+//                 </ul>
+//             </div>
+//             <div>
+//                 <h1>Something else</h1>
+//                 <ul>
+//                     <li>three</li>
+//                     <li>four</li>
+//                 </ul>
+//             </div>
+//             <div>
+//                 <hr />
+//                 <p>
+//                     David Chen &copy;{new Date().getFullYear()} Luna Media LLC | All right reserved | Terms and Conditions | Privacy
+//                 </p>
+//             </div>
+//         </div>
+//     )
+// }
