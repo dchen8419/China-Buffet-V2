@@ -1,8 +1,5 @@
 import React from 'react'
 import Card from './Card/Card'
-import Chef from './CSpecial/Chef'
-import Dinner from './DSpecial/Dinner'
-import Lunch from './Lunch/Lunch'
 
 function Menu() {
     return (
@@ -14,36 +11,143 @@ function Menu() {
                         <Card 
                             label="Appetizers" item={
                                 [
-                                    'Shrimp Egg Roll', 
-                                    'Chicken Egg Roll (2)',
-                                    'Vegetable Spring Roll (2)',
-                                    'Crab Rangoon (12)',
-                                    'Steamed or Fried Drumpling (8)',
-                                    'B.B.Q. Spare Ribs',
-                                    'Chicken Wings',
-                                    'Hot Chicken Wing',
-                                    'Chicken Teriyaki',
-                                    'Pu Pu Platter',
-                                    'Sweet Potato',
-                                    'Potato',
-                                    'Chicken Nugget (12)',
-                                    'Sweet Rolls',
-                                    'Cheese Sticks',
-                                    'French Fries',
-                                    'Fried Okra'
+                                    {
+                                        id: 1,
+                                        Name: 'Shrimp Egg Roll',
+                                        Price: '$1.75'
+                                    },
+                                    {
+                                        id: 2,
+                                        Name: 'Chicken Egg Roll (2)',
+                                        Price: '$2.50'
+                                    },
+                                    {
+                                        id: 3,
+                                        Name: 'Vegetable Spring Roll (2)',
+                                        Price: '$2.50'
+                                    },
+                                    {
+                                        id: 4,
+                                        Name: 'Crab rangoon (12)',
+                                        Price: '$6.50'
+                                    },
+                                    {
+                                        id: 5,
+                                        Name: 'Steamed or Fried Dumpling (8)',
+                                        Price: '$6.00'
+                                    },
+                                    {
+                                        id: 6,
+                                        Name: 'B.B.Q. Spare Ribs Sm.(5) Lg.(10)',
+                                        Small: '$6.00',
+                                        Large: '10.95'
+                                    },
+                                    {
+                                        id: 7,
+                                        Name: 'Chicken Wings Sm.(6) Lg.(12)',
+                                        Small: '$4.50',
+                                        Large:  '$9.00'
+                                    },
+                                    {
+                                        id: 8,
+                                        Name: 'Hot Wings Sm.(7) Lg.(14)',
+                                        Small: '$4.50',
+                                        Lage: '$9.50'
+                                    },
+                                    {
+                                        id: 9,
+                                        Name: 'Chicken Teriyaki (7)',
+                                        Price: '6.95'
+                                    },
+                                    {
+                                        id: 10,
+                                        Name: 'Pu Pu Platter (for 2)',
+                                        Price: '$10.95'
+                                    },
+                                    {
+                                        id: 11,
+                                        Name: 'Sweet Potato',
+                                        Small: '$5.50',
+                                        Large: '$7.99'
+                                    },
+                                    {
+                                        id: 12,
+                                        Name: 'Potato',
+                                        Small: '$5.00',
+                                        Large: '$7.99'
+                                    },
+                                    {
+                                        id: 13,
+                                        Name: 'Chicken Nuggets (12)',
+                                        Price: '4.49'
+                                    },
+                                    {
+                                        id: 14,
+                                        Name: 'Sweet Rolls',
+                                        Price: '$4.25'
+                                    },
+                                    {
+                                        id: 16,
+                                        Name: 'Cheese Sticks (12)',
+                                        Price: '6.49'
+                                    },
+                                    {
+                                        id: 18,
+                                        Name: 'French Fries',
+                                        Small: '$2.75',
+                                        Large: '$3.75'
+                                    },
+                                    {
+                                        id: 19,
+                                        Name: 'Fried Okra',
+                                        Price: '$4.49'
+                                    },
                                 ]
                             }
                         />
                         <Card 
-                            label="Soup" item={
+                            label="Soup" extras ="(with Crunch Noodles)" item={
                                 [
-                                    'Wonton Soup',
-                                    'Egg Drop Soup',
-                                    'Wonton and Egg Drop Soup',
-                                    'Hot & Sour Soup',
-                                    'Chicken Noodle or Rice Soup',
-                                    'House Special Soup',
-                                    'Chinese Vegetable Soup'
+                                    {
+                                        id: 20,
+                                        Name: 'Wonton Soup',
+                                        Small: '$2.50',
+                                        Large: '$4.50'
+                                    },
+                                    {
+                                        id: 21,
+                                        Name: 'Egg Drop Soup',
+                                        Small: '$2.50',
+                                        Large: '$4.50'
+                                    },
+                                    {
+                                        id: 22,
+                                        Name: 'Wonton and Egg Drop Soup',
+                                        Small: '$2.50',
+                                        Large: '$4.50'
+                                    },
+                                    {
+                                        id: 23,
+                                        Name: 'Hot & Sour Soup',
+                                        Small: '$2.50',
+                                        Large: '$4.50'
+                                    },
+                                    {
+                                        id: 24,
+                                        Name: 'Chicken Noodle or Rice Soup',
+                                        Small: '$2.50',
+                                        Large: '$4.50'
+                                    },
+                                    {
+                                        id: 25,
+                                        Name: 'House Special Soup',
+                                        Price: '$5.00'
+                                    },
+                                    {
+                                        id: 26,
+                                        Name: 'Chinese Vegetable Soup',
+                                        Price: '$3.50',
+                                    },
                                 ]
                             }
                         />
@@ -52,98 +156,163 @@ function Menu() {
                         <Card 
                             label="Lo Mein" item={
                                 [
-                                    'Vegetable Lo Mein',
-                                    'Roast Pork Lo Mein',
-                                    'Chicken Lo Mein',
-                                    'Beef Lo Mein',
-                                    'Shrimp Lo Mein',
-                                    'House Special Lo Mein'
+                                    {
+                                        id: 27,
+                                        Name: 'Vegetable Lo Mein',
+                                        Small: '$5.00',
+                                        Large: '$8.25'
+                                    },
+                                    {
+                                        id: 28,
+                                        Name: 'Roast Pork Lo Mein',
+                                        Small: '$5.00',
+                                        Large: '$8.25'
+                                    },
+                                    {
+                                        id: 29,
+                                        Name: 'Chicken Lo Mein',
+                                        Small: '$5.00',
+                                        Large: '$8.25'
+                                    },
+                                    {
+                                        id: 30,
+                                        Name: 'Beef Lo Mein',
+                                        Small: '$5.50',
+                                        Large: '$9.25'
+                                    },
+                                    {
+                                        id: 31,
+                                        Name: 'Shrimp Lo Mein',
+                                        Small: '$5.50',
+                                        Large: '$9.25'
+                                    },
+                                    {
+                                        id: 32,
+                                        Name: 'House Special Lo Mein',
+                                        Small: '$5.50',
+                                        Large: '$9.25'
+                                    },
                                 ]
                             }
                         />
                         <Card 
                             label="Fried Rice" item={
                                 [
-                                    'Ham Fried Rice',
-                                    'Roast Pork Fried Rice',
-                                    'Chicken Fried Rice',
-                                    'Beef Fried Rice',
-                                    'Vegetable Fried Rice',
-                                    'Shrimp Fried Rice',
-                                    'House Special Fried Rice'
+                                    {
+                                        id: 33,
+                                        Name: 'Ham Fried Rice',
+                                        Small: '$5.00',
+                                        Large: '8.25'
+                                    },
+                                    {
+                                        id: 34,
+                                        Name: 'Roast Pork Fried Rice',
+                                        Small: '$5.00',
+                                        Large: '8.25'
+                                    },
+                                    {
+                                        id: 35,
+                                        Name: 'Chicken Fried Rice',
+                                        Small: '$5.00',
+                                        Large: '8.25'
+                                    },
+                                    {
+                                        id: 36,
+                                        Name: 'Beef Fried Rice',
+                                        Small: '$5.50',
+                                        Large: '9.25'
+                                    },
+                                    {
+                                        id: 37,
+                                        Name: 'Vegetable Fried Rice',
+                                        Small: '$5.00',
+                                        Large: '8.25'
+                                    },
+                                    {
+                                        id: 38,
+                                        Name: 'Shrimp Fried Rice',
+                                        Small: '$5.50',
+                                        Large: '9.25'
+                                    },
+                                    {
+                                        id: 39,
+                                        Name: 'House Special Fried Rice',
+                                        Small: '$5.50',
+                                        Large: '9.25'
+                                    },
                                 ]
                             }
                         />
                         </ul>
                         <ul>
-                            <Chef 
-                                item={
+                            <Card 
+                                label="Chef Special" extras="(w. White Rice)" item={
                                     [
                                         {
-                                            id: 1,
-                                            MenuNumber: "C1", 
+                                            id: 'C1',
                                             Name: "General Tso's Chicken", 
-                                            Description: "Chunks of tender chicken marinated in a hot and spicy red sauce."
+                                            Description: "Chunks of tender chicken marinated in a hot and spicy red sauce.",
+                                            Price: '$9.95'
                                         },
                                         {
-                                            id: 2,
-                                            MenuNumber: "C2",
+                                            id: 'C2',
                                             Name: "Sesame Chicken",
                                             Description: "Chunks of tender chicken marinated in a sweet sauce with sesame seeds.",
+                                            Price: '$9.95'
                                         },
                                         {
-                                            id: 3,
-                                            MenuNumber: "C3",
+                                            id: 'C3',
                                             Name: "Happy Family",
                                             Description: "Shrimp, scallops, chicken and ceef sauteed in a brown sauce.",
+                                            Price: '$12.50'
                                         },
                                         {
-                                            id: 4,
-                                            MenuNumber: "C4",
+                                            id: "C4",
                                             Name: "Triple Delight",
                                             Description: "Shrimp, scallops and chicken sauteed in a spicy garlic sauce.",
+                                            Price: '$13.99'
                                         },
                                         {
-                                            id: 5,
-                                            MenuNumber: "C5",
+                                            id: "C5",
                                             Name: "Mongolian Beef",
                                             Description: "Sliced Beef with onions in a spicy brown sauce.",
+                                            Price: '$10.95'
                                         },
                                         {
-                                            id: 6,
-                                            MenuNumber: "C6",
+                                            id: "C6",
                                             Name: "Beef with Scallops",
-                                            Description: "Slice beef and sea scallops sauteed in a brown sauce with mixed vegetables.",
+                                            Description: "Sliced Beef and Sea Scallops sauteed in a brown sauce with mixed vegetables.",
+                                            Price: '$13.99'
                                         },
                                         {
-                                            id: 7,
-                                            MenuNumber: "C7",
+                                            id: "C7",
                                             Name: "Seafood Delight",
                                             Description: "Jumbo shrimp, scallops and crab meat with mixed Chinese vegetables.",
+                                            Price: '$13.99'
                                         },
                                         {
-                                            id: 8,
-                                            MenuNumber: "C8",
+                                            id: "C8",
                                             Name: "Bonless Chicken",
                                             Description: "Sliced bonless fried chicken topped with mixed vegetables in a brown sauce.",
+                                            Price: '$9.95'
                                         },
                                         {
-                                            id: 9,
-                                            MenuNumber: "C9",
+                                            id: "C9",
                                             Name: "Lemon Chicken",
                                             Description: "Sliced boneless fried chickeen topped with lemon flavored sauce.",
+                                            Price: '$9.95'
                                         },
                                         {
-                                            id: 10,
-                                            MenuNumber: "C10",
+                                            id: "C10",
                                             Name: "Hunan Combo",
                                             Description: "Diced Chicken and baby shrimp sauteed in a spicy Hunan suace.",
+                                            Price: '$11.95'
                                         },
                                         {
-                                            id: 11,
-                                            MenuNumber: "C11",
+                                            id: "C11",
                                             Name: "Sweet and Sour Delight",
                                             Description: "Combination of fried chicken, shrimp and pork with sweet and sour sauce",
+                                            Price: '$10.50'
                                         }
                                     ]
                                 }
@@ -151,86 +320,307 @@ function Menu() {
                         </ul>
                         <ul>
                         <Card 
-                            label="Egg Foo Young" item={
+                            label="Egg Foo Young" extras="(with White Rice)" item={
                                 [
-                                    'Roast Pork Egg Foo Roung',
-                                    'Chicken Egg Foo Young',
-                                    'Beef Egg Foo Young',
-                                    'Vegetable Egg Foo Young',
-                                    'Shrimp Egg Foo Young'
+                                    {
+                                        id: 40,
+                                        Name: ' Roast Pork Egg Foo Young',
+                                        Price: '$8.75'
+                                    },
+                                    {
+                                        id: 41,
+                                        Name: 'Chicken Egg Foo Young',
+                                        Price: '$8.75'
+                                    },
+                                    {
+                                        id: 42,
+                                        Name: 'Beef Egg Foo Young',
+                                        Price: '$8.75'
+                                    },
+                                    {
+                                        id: 43,
+                                        Name: 'Vegetable Foo Young',
+                                        Price: '$8.75'
+                                    },
+                                    {
+                                        id: 44,
+                                        Name: 'Shrimp Egg Foo Young',
+                                        Price: '$9.50'
+                                    },
                                 ]
                             }
                         />
                         <Card 
-                            label="Chow Mein / Chop Suey" item={
+                            label="Chow Mein / Chop Suey" extras='(w. Crunchy Noodles and White Rice)' item={
                                 [
-                                    'Roast Pork Chow Mein or Chop Suey',
-                                    'Chicken Chow Mein or Chop Suey',
-                                    'Beef Chow Mein or Chop Suey',
-                                    'Shrimp Chow Mein or Chop Suey',
-                                    'House Special Chow Mein or Chop Suey'
+                                    {
+                                        id: 45,
+                                        Name: 'Roast Pork Chow Mein or Chop Suey',
+                                        Small: '$5.50',
+                                        Large: '$9.25'
+                                    },
+                                    {
+                                        id: 46,
+                                        Name: 'Chicken Chow Mein or Chop Suey',
+                                        Small: '$5.50',
+                                        Large: '$9.25'
+                                    },
+                                    {
+                                        id: 47,
+                                        Name: 'Beef Chow Mein or Chop Suey',
+                                        Small: '$5.50',
+                                        Large: '$9.25'
+                                    },
+                                    {
+                                        id: 48,
+                                        Name: 'Shrimp Chow Mein or Chop Suey',
+                                        Small: '$5.75',
+                                        Large: '$10.75'
+                                    },
+                                    {
+                                        id: 49,
+                                        Name: 'House Special Chow Mein or Chop Suey',
+                                        Small: '$5.75',
+                                        Large: '$10.75'
+                                    },
                                 ]
                             }
                         />
                         </ul>
                         <ul>
                             <Card
-                                label="Pork" item={
+                                label="Pork" extras="(with White Rice)" item={
                                     [
-                                        'Roast Pork with Mixed Vegetables',
-                                        'Roast Pork with Broccoli',
-                                        'Roast Pork with Mushroom',
-                                        "Twice Cooked Roast Pork"
+                                        {
+                                            id: 50,
+                                            Name: 'Roast Pork with Mixed Vegetables',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 51,
+                                            Name: 'Roast Pork with Broccoli',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 52,
+                                            Name: 'Roast Pork with Mushroom',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 53,
+                                            Name: 'Twice Cooked Roast Pork',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
                                     ]
                                 }
                             />
                             <Card 
-                                label="Chicken" item={
+                                label="Chicken" extras="(with White Rice)" item={
                                     [
-                                        'Curry Chicken',
-                                        'Chicken with Broccoli',
-                                        'Chicken with Mixed Vegetables',
-                                        'Cashew Chicken',
-                                        'Kung Po Chicken',
-                                        'Chicken with Garlic Sauce',
-                                        'Szechuan Chicken',
-                                        'Meat Ball (12)',
-                                        'Hawaii Chicken',
-                                        'Moo Goo Gai Pan',
-                                        'Chicken with Mushroom',
-                                        'Chicken Black Pepper Sauce'
+                                        {
+                                            id: 54,
+                                            Name: 'Curry Chicken',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 55,
+                                            Name: 'Chicken with Broccoli',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 56,
+                                            Name: 'Chicken with Mixed Vegetables',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 57,
+                                            Name: 'Cachew Chicken',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 58,
+                                            Name: 'Kung Po Chicken',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 59,
+                                            Name: 'Chickenwith Garlic Sauce',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 60,
+                                            Name: 'Szechuan Chicken',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 61,
+                                            Name: 'Meat Ball (12)',
+                                            Price: '$6.50'
+                                        },
+                                        {
+                                            id: 62,
+                                            Name: 'Hawaii Chicken',
+                                            Price: '$9.25'
+                                        },
+                                        {
+                                            id: 63,
+                                            Name: 'Moo Goo Gai Pan',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 64,
+                                            Name: 'Chicken with Mushroom',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
+                                        {
+                                            id: 65,
+                                            Name: 'Chicken Black Pepper Sauce',
+                                            Small: '$5.50',
+                                            Large: '$9.95'
+                                        },
                                     ]
                                 }
                             />
                             <Card 
-                                label="Beef" item={
+                                label="Beef" extras="(with White Rice)" item={
                                     [
-                                        'Beef with Broccoli',
-                                        'Beef with Mixed Vegetables',
-                                        'Beef with Mushroom',
-                                        'Pepper Steak with Onion',
-                                        'Kung Po Beef',
-                                        'Szechuan Beef',
-                                        'Beef with Garlic Sauce',
-                                        'Hunan Beef'
+                                        {
+                                            id: 66,
+                                            Name: 'Beef with Broccoli',
+                                            Small: '$6.00',
+                                            Large: '$9.75'
+                                        },
+                                        {
+                                            id: 67,
+                                            Name: 'Beef with Mixed Vegetables',
+                                            Small: '$6.00',
+                                            Large: '$9.75'
+                                        },
+                                        {
+                                            id: 68,
+                                            Name: 'Beef',
+                                            Small: '$6.00',
+                                            Large: '$9.75'
+                                        },
+                                        {
+                                            id: 69,
+                                            Name: 'Beef with Mushroom',
+                                            Small: '$6.00',
+                                            Large: '$9.75'
+                                        },
+                                        {
+                                            id: 70,
+                                            Name: 'Pepper Steak with Onion',
+                                            Small: '$6.00',
+                                            Large: '$9.75'
+                                        },
+                                        {
+                                            id: 71,
+                                            Name: 'Kung Po Beef',
+                                            Small: '$6.00',
+                                            Large: '$9.75'
+                                        },
+                                        {
+                                            id: 72,
+                                            Name: 'Beef with Garlic Sauce',
+                                            Small: '$6.00',
+                                            Large: '$9.75'
+                                        },
+                                        {
+                                            id: 73,
+                                            Name: 'Beef Hunan Beef',
+                                            Small: '$6.00',
+                                            Large: '$9.75'
+                                        },
                                     ]
                                 }
                             />
                             <Card 
-                                label="Seafood" item={
+                                label="Seafood" extras="(with White Rice)" item={
                                     [
-                                        'Shrimp with Broccoli',
-                                        'Shrmip with Lobster Sauce',
-                                        'Shrimp with Mixed Vegetables',
-                                        'Shrimp with Garlic Sauce',
-                                        'Shrimp with Chili Sauce',
-                                        'Scallop with Garlic Sauce',
-                                        'Kung Po Shrimp',
-                                        'Kung Po Scallop',
-                                        'Curry Shrimp',
-                                        'Salt & Pepper Shrimp',
-                                        'Crab Legs',
-                                        'Mussels (12)'
+                                        {
+                                            id: 76,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 77,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 78,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 79,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 80,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 81,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 82,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 83,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 84,
+                                            Name: 'Shrimp',
+                                            Small: '$6.75',
+                                            Large: '$11.49'
+                                        },
+                                        {
+                                            id: 85,
+                                            Name: 'Salt & Pepper Shrimp',
+                                            Small: '$7.75',
+                                            Large: '$13.49'
+                                        },
+                                        {
+                                            id: 86,
+                                            Name: 'Crab Legs',
+                                            Price: '$13.49'
+                                        },
+                                        {
+                                            id: 87,
+                                            Name: 'Mussels (12)',
+                                            Price: '$8.00'
+                                        },
                                     ]
                                 }
                             />
@@ -238,102 +628,132 @@ function Menu() {
                             
                         <ul>
                             <Card 
-                                label="Sweet & Sour" item={
+                                label="Sweet & Sour" extras="(with White Rice)" item={
                                     [
-                                        'Sweet & Sour Chicken',
-                                        'Sweet & Sour Shrimp'
+                                        {
+                                            id: 74,
+                                            Name: 'Sweet & Sour Chicken',
+                                            Small: '$5.50',
+                                            Large: '$9.25'
+                                        },
+                                        {
+                                            id: 75,
+                                            Name: 'Sweet & Sour Shrimp',
+                                            Small: '$6.25',
+                                            Large: '$11.50'
+                                        },
                                     ]
                                 }
                             />
                             <Card 
-                                label="Vegetable" item={
+                                label="Vegetable" extras="(with White Rice)" item={
                                     [
-                                        'Sauteed Mixed Vegetables',
-                                        'Mixed Vegetables with Garlic Sauce',
-                                        'Broccoli with Garlic Sauce',
-                                        'Cabbage w. Ham'
+                                        {
+                                            id: 88,
+                                            Name: 'Sauteed Mixed Vegetables',
+                                            Small: '$5.00',
+                                            Large: '$8.50'
+                                        },
+                                        {
+                                            id: 89,
+                                            Name: 'Mixed Vegetables with Garlic Sauce',
+                                            Small: '$5.00',
+                                            Large: '$8.50'
+                                        },
+                                        {
+                                            id: 90,
+                                            Name: 'Broccoli with Garlic Sauce',
+                                            Small: '$5.00',
+                                            Large: '$8.50'
+                                        },
+                                        {
+                                            id: 91,
+                                            Name: 'Cabbage w. Ham',
+                                            Small: '$5.00',
+                                            Large: '$8.50'
+                                        },
                                     ]
                                 }
                             />
                         </ul>
                             <ul>
-                                <Dinner 
-                                    item={
+                                <Card 
+                                    label="Dinner Combination Platters" extras="Served with Egg Roll & Pork Freid Rice"   item={
                                         [
                                             {
-                                                id: 12,
-                                                DinnerNumber: 'D1',
-                                                DinnerCombo: 'Chicken Wings with Shrimp Fried Rice'
+                                                id: 'D1',
+                                                Name: 'Chicken Wings with Shrimp Fried Rice',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 13,
-                                                DinnerNumber: 'D2',
-                                                DinnerCombo: 'B.B.Q. Spare Ribs'
+                                                id: 'D2',
+                                                Name: 'B.B.Q. Spare Ribs',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 14,
-                                                DinnerNumber: 'D3',
-                                                DinnerCombo: 'Chicken with Broccoli'
+                                                id: 'D3',
+                                                Name: 'Chicken with Broccoli',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 15,
-                                                DinnerNumber: 'D4',
-                                                DinnerCombo: 'Beef with Broccoli'
+                                                id: 'D4',
+                                                Name: 'Beef with Broccoli',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 16,
-                                                DinnerNumber: 'D5',
-                                                DinnerCombo: 'Pepper Steak with Onions'
+                                                id: 'D5',
+                                                Name: 'Pepper Steak with Onions',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 17,
-                                                DinnerNumber: 'D6',
-                                                DinnerCombo: 'Chow Mein (Chicken, Beef, or Pork)',
+                                                id: 'D6',
+                                                Name: 'Chow Mein (Chicken, Beef, or Pork)',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 18,
-                                                DinnerNumber: 'D7',
-                                                DinnerCombo: 'Sweet & Sour (Chicken or Pork',
+                                                id: 'D7',
+                                                Name: 'Sweet & Sour (Chicken or Pork',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 19,
-                                                DinnerNumber: 'D8',
-                                                DinnerCombo: "Szechuan Beef or Chicken",
+                                                id: 'D8',
+                                                Name: "Szechuan Beef or Chicken",
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 20,
-                                                DinnerNumber: 'D9',
-                                                DinnerCombo: "Shrimp with Garlic Sauce",
+                                                id: 'D9',
+                                                Name: "Shrimp with Garlic Sauce",
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 21,
-                                                DinnerNumber: 'D10',
-                                                DinnerCombo: "Sesame Chicken",
+                                                id: 'D10',
+                                                Name: "Sesame Chicken",
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 22,
-                                                DinnerNumber: 'D11',
-                                                DinnerCombo: 'General Tso\'s Chicken',
+                                                id: 'D11',
+                                                Name: 'General Tso\'s Chicken',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 23,
-                                                DinnerNumber: 'D12',
-                                                DinnerCombo: 'Kung Po Chicken or Shrimp',
+                                                id: 'D12',
+                                                Name: 'Kung Po Chicken or Shrimp',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 24,
-                                                DinnerNumber: 'D13',
-                                                DinnerCombo: 'Chicken, Pork or Beef with Mixed Vegetables',
+                                                id: 'D13',
+                                                Name: 'Chicken, Pork or Beef with Mixed Vegetables',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 25,
-                                                DinnerNumber: 'D14',
-                                                DinnerCombo: 'Lo Mein (Chicken, Beef, Pork or Shrimp',
+                                                id: 'D14',
+                                                Name: 'Lo Mein (Chicken, Beef, Pork or Shrimp',
+                                                Price: '$9.50'
                                             },
                                             {
-                                                id: 26,
-                                                DinnerNumber: 'D15',
-                                                DinnerCombo: 'Moo Goo Gai Pan',
+                                                id: 'D15',
+                                                Name: 'Moo Goo Gai Pan',
+                                                Price: '$9.50'
                                             },
                                         ]
                                     }
@@ -341,73 +761,73 @@ function Menu() {
                                 />
                             </ul>
                             <ul>
-                                <Lunch 
-                                    item={
+                                <Card 
+                                    label='Lunch Special' extras="Served with Egg Roll & Pork Fried Rice" time='(11:00am to 4:00pm)' item={
                                         [
                                             {
-                                                id: 27,
-                                                LunchNumber: 'L1',
-                                                LunchCombo: 'Chicken Wings'
+                                                id: 'L1',
+                                                Name: 'Chicken Wings',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 28,
-                                                LunchNumber: 'L2',
-                                                LunchCombo: 'Spare Ribs'
+                                                id: 'L2',
+                                                Name: 'Spare Ribs',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 29,
-                                                LunchNumber: 'L3',
-                                                LunchCombo: 'Beef or Chicken with Broccoli'
+                                                id: 'L3',
+                                                Name: 'Beef or Chicken with Broccoli',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 30,
-                                                LunchNumber: 'L4',
-                                                LunchCombo: 'Sweet & Sour Chicken'
+                                                id: 'L4',
+                                                Name: 'Sweet & Sour Chicken',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 31,
-                                                LunchNumber: 'L5',
-                                                LunchCombo: 'Lo Mein (Chicken, Pork, or Beef)'
+                                                id: 'L5',
+                                                Name: 'Lo Mein (Chicken, Pork, or Beef)',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 32,
-                                                LunchNumber: 'L6',
-                                                LunchCombo: 'Pepper Steak with Onion'
+                                                id: 'L6',
+                                                Name: 'Pepper Steak with Onion',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 33,
-                                                LunchNumber: 'L7',
-                                                LunchCombo: 'Szechuan Chicken or Beef'
+                                                id: 'L7',
+                                                Name: 'Szechuan Chicken or Beef',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 34,
-                                                LunchNumber: 'L8',
-                                                LunchCombo: 'Kung Po Chicken'
+                                                id: 'L8',
+                                                Name: 'Kung Po Chicken',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 35,
-                                                LunchNumber: 'L9',
-                                                LunchCombo: 'Genertal Tso\'s Chicken'
+                                                id: 'L9',
+                                                Name: 'Genertal Tso\'s Chicken',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 36,
-                                                LunchNumber: 'L10',
-                                                LunchCombo: 'Chicken with Garlic Sauce'
+                                                id: 'L10',
+                                                Name: 'Chicken with Garlic Sauce',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 37,
-                                                LunchNumber: 'L11',
-                                                LunchCombo: 'Curry Chicken or Beef'
+                                                id: 'L11',
+                                                Name: 'Curry Chicken or Beef',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 38,
-                                                LunchNumber: 'L12',
-                                                LunchCombo: 'Chicken, Pork or Beef with Mixed Vegetables'
+                                                id: 'L12',
+                                                Name: 'Chicken, Pork or Beef with Mixed Vegetables',
+                                                Price: '$7.75'
                                             },
                                             {
-                                                id: 39,
-                                                LunchNumber: 'L13',
-                                                LunchCombo: 'Sesame Chicken'
+                                                id: 'L13',
+                                                Name: 'Sesame Chicken',
+                                                Price: '$7.75'
                                             },
                                         ]
                                     }

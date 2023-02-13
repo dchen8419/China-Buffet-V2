@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+// import { Link } from 'react-router-dom'
 
 export const Footer = () => {
     return (
@@ -8,12 +9,12 @@ export const Footer = () => {
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
                     <h2>About Us</h2>
-                    <a href="ubiquitous-centaur-265e8c.netlify.app/contact">Careers</a>
+                    <a href="/contact">Careers</a>
                 </div>
                 <div className='footer-link-items'>
                     <h2>Contact Us</h2>
-                    <a href="ubiquitous-centaur-265e8c.netlify.app/contact">Contact</a>
-                    <a href="ubiquitous-centaur-265e8c.netlify.app/contact">Support</a>
+                    <a href="/contact">Contact</a>
+                    <a href="/contact">Support</a>
                 </div>
             </div>
         </div>
