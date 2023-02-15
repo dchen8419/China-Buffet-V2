@@ -5,12 +5,14 @@ function Card(props) {
 
     
     return (
-        <div className='menu-border'>
+        <div>
             <ol>
-                <h1>{props.label}</h1>
-                <h4>{props.time ? props.time : ''}</h4>
-                <h4>{props.extras ? props.extras : ''}</h4>
-                <div className='menu-spacing'>
+                <div className='card-title'>
+                    <h1>{props.label}</h1>
+                    <h4 className='card-time'>{props.time ? props.time : ''}</h4>
+                    <h2 className='card-front'>{props.extras ? props.extras : ''}</h2>
+                </div>
+                <div className='card-spacing'>
                     {props.item.map((item) => {
                         return (
                         [

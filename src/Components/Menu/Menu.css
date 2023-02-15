@@ -1,0 +1,44 @@
+.menu-background {
+    background-color: rgb(6, 139, 118);
+    margin-bottom: 0!important;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-container-item {
+    width: 600px;
+    margin: 10px;
+    border: 4px solid #333;
+    background-color: rgb(159, 1, 2);
+}
+
+.menu-container-item-1 {
+    min-height: 100px;
+}
+
+.menu-container-item-2 {
+    min-height: 200px;
+}
+
+.menu-container-item-3 {
+    min-height: 300px;
+}
+
+.menu-container-item-4 {
+    min-height: 400px;
+}
+
+.menu-container-lunch {
+    background-color: rgb(215, 170, 46);
+}
+
+.menu-container-chef-special {
+    background-color:  rgb(215, 170, 46);
+}
+
+.menu-container-dinner-combo {
+    background-color:  rgb(215, 170, 46);
+}
