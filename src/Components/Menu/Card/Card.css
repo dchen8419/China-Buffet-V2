@@ -1,7 +1,19 @@
-.menu-border {
-    border-style: groove;
+
+.card-title {
+    text-align: center;
+    font-family: 'Georgia', 'serif';
 }
 
-.menu-spacing {
+.card-spacing {
     line-height: 2;
+    font-family: 'Georgia', 'serif';
+}
+
+.card-time {
+    color: crimson;
+    font-family: 'Georgia', 'serif';
+}
+
+.card-front {
+    font-family: 'Brush Script MT', 'cursive';
 }

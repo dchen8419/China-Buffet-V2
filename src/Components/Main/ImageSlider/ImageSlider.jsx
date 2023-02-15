@@ -22,21 +22,29 @@ const ImageSlider = ({slides}) => {
 
     return (
         <div className='front-page-background'>
-            <h1 className='page-name'>Welcome to China Buffet</h1>
-            <h1 className='page-name'>Dillon, SC</h1>
-            <section className='slider'>
-            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
-            <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide}/>
-        {SliderData.map((slide, index) => {
-            return (
-                <div className={index === current ? 'slide active' : slide} key={index}>
-                    {index === current && (
-                        <img src={slide.image} alt="food" className='slider-image'/>
-                    )}
+            <div>
+                <h1 className='page-name'>Welcome to China Buffet</h1>
+                <h1 className='page-name'>Dillon, SC</h1>
+            </div>
+                <div>
+                    <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
                 </div>
-            )
-        })}
-        </section>
+                <div>
+                    <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide}/>
+                </div>
+            <section className='slider'>
+
+                
+                    {SliderData.map((slide, index) => {
+                        return (
+                            <div className={index === current ? 'slide active' : slide} key={index}>
+                                {index === current && (
+                                    <img src={slide.image} alt="food" className='slider-image'/>
+                                )}
+                            </div>
+                )
+            })}
+            </section>
         </div>
         
     )
