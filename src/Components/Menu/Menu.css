@@ -1,10 +1,10 @@
 .menu-background {
     background-color: rgb(6, 139, 118);
-    margin-bottom: 0!important;
 }
 
 .menu-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
