@@ -6,6 +6,10 @@ import './Main.css'
 function Main() {
     return (
         <div>
+            <div>
+                <h1 className='front-page-title'>Welcome to China Buffet</h1>
+                <h1 className='front-page-title'>Dillon, SC</h1>
+            </div>
             <div className='front-page-background'>
                 <ImageSlider slides={SliderData}/>
             </div>

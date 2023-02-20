@@ -4,13 +4,14 @@
     border: 3px solid goldenrod;
     padding: 10px;
     height: 70vh;
-    word-wrap: break-word;
+    overflow-x: hidden;
 }
 
 .temple-of-heave-image {
     margin: auto;
     display: block;
     border: 5px solid goldenrod;
+    width: 90%;
 }
 
 .about-spacing {
