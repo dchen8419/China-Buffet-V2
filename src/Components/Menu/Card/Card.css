@@ -4,9 +4,17 @@
     font-family: 'Georgia', 'serif';
 }
 
+.card-label {
+    text-align: center;
+}
+
 .card-spacing {
     line-height: 2;
     font-family: 'Georgia', 'serif';
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    text-align: left;
 }
 
 .card-time {
@@ -14,6 +22,6 @@
     font-family: 'Georgia', 'serif';
 }
 
-.card-front {
+.card-extra {
     font-family: 'Brush Script MT', 'cursive';
 }
