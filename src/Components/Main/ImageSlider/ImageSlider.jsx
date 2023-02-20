@@ -22,19 +22,13 @@ const ImageSlider = ({slides}) => {
 
     return (
         <div className='front-page-background'>
-            <div>
-                <h1 className='page-name'>Welcome to China Buffet</h1>
-                <h1 className='page-name'>Dillon, SC</h1>
-            </div>
                 <div>
                     <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
                 </div>
                 <div>
                     <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide}/>
                 </div>
-            <section className='slider'>
-
-                
+            <div className='slider'>
                     {SliderData.map((slide, index) => {
                         return (
                             <div className={index === current ? 'slide active' : slide} key={index}>
@@ -42,9 +36,9 @@ const ImageSlider = ({slides}) => {
                                     <img src={slide.image} alt="food" className='slider-image'/>
                                 )}
                             </div>
-                )
-            })}
-            </section>
+                        )
+                    })}
+            </div>
         </div>
         
     )

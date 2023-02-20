@@ -2,3 +2,12 @@
     background-color: goldenrod;
     height: 750px;
 }
+
+.front-page-title {
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+    background-color: goldenrod;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
