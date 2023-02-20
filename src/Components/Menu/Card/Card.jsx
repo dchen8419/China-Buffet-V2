@@ -6,18 +6,22 @@ function Card(props) {
     
     return (
         <div>
-            <ol>
-                <div className='card-title'>
-                    <h1>{props.label}</h1>
-                    <h4 className='card-time'>{props.time ? props.time : ''}</h4>
-                    <h2 className='card-front'>{props.extras ? props.extras : ''}</h2>
-                </div>
-                <div className='card-spacing'>
+            <div className='card-label'>
+                <h1>{props.label}</h1>
+                <h4 className='card-time'>{props.time ? props.time : ''}</h4>
+                <h2 className='card-extra'>{props.extras ? props.extras : ''}</h2>
+            </div>
+            <ol className='card-spacing'>
+                <div>
                     {props.item.map((item) => {
                         return (
                         [
-                            <h3 key={item.id}>{item.id}. {item.Name}... {item.Price ? item.Price : `Sm. ${item.Small}`} {!item.Large ? '':`Lg. ${item.Large}`}</h3>,
-                            <h4 key={item.id}>{item.Description ?  item.Description : ''}</h4>
+                            <h3 key={item.id}>
+                                {item.id}. {item.Name}... {item.Price ? item.Price : `Sm. ${item.Small}`} {!item.Large ? '':`Lg. ${item.Large}`}
+                            </h3>,
+                            <h4 key={item.id}>
+                                {item.Description ?  item.Description : ''}
+                            </h4>
                         ]
                         )
                     })}

@@ -1,3 +1,7 @@
+.menu-ul-list {
+    display: inline;
+}
+
 .menu-background {
     background-color: rgb(6, 139, 118);
 }
@@ -6,11 +10,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
 .menu-container-item {
-    width: 600px;
-    margin: 10px;
+    margin: 30px;
+    width: 700px;
     border: 4px solid #333;
     background-color: rgb(159, 1, 2);
 }

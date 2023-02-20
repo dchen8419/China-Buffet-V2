@@ -10,7 +10,7 @@ function Menu() {
             </div>
             <div>
                 <div>
-                    <ul>
+                    <ul className='menu-ul-list'>
                         <div className='menu-container'>
                             <div className='menu-container-item menu-container-lunch'>
                                 <Card 
@@ -87,7 +87,7 @@ function Menu() {
                             </div>
                         </div>
                     </ul>
-                    <ul>
+                    <ul className='menu-ul-list'>
                         <div className='menu-container'>
                             <div className='menu-container-item menu-container-item-1'>
                                 <Card 
@@ -238,7 +238,7 @@ function Menu() {
                             </div>
                         </div>
                     </ul>
-                    <ul>
+                    <ul className='menu-ul-list'>
                         <div className='menu-container'>
                             <div className='menu-container-item menu-container-item-1'>
                                 <Card 
@@ -336,7 +336,7 @@ function Menu() {
                             </div>
                         </div>
                         </ul>
-                        <ul>
+                        <ul className='menu-ul-list'>
                             <div className='menu-container'>
                                 <div className='menu-container-item menu-container-chef-special'>
                                     <Card 
@@ -414,7 +414,7 @@ function Menu() {
                                 </div>
                             </div>
                         </ul>
-                        <ul>
+                        <ul className='menu-ul-list'>
                             <div className='menu-container'>
                                 <div className='menu-container-item menu-container-item-1'>
                                     <Card 
@@ -489,7 +489,7 @@ function Menu() {
                                 </div>
                             </div>
                         </ul>
-                        <ul>
+                        <ul className='menu-ul-list'>
                             <div className='menu-container'>
                                 <div className='menu-container-item menu-container-item-1'>
                                     <Card
@@ -737,7 +737,7 @@ function Menu() {
                                 </div>
                             </div>
                         </ul>
-                        <ul>
+                        <ul className='menu-ul-list'>
                             <div className='menu-container'>
                                 <div className='menu-container-item menu-container-item-1'>
                                     <Card 
@@ -793,7 +793,7 @@ function Menu() {
                                 </div>
                             </div>
                         </ul>
-                            <ul>
+                            <ul className='menu-ul-list'>
                                 <div className='menu-container'>
                                     <div className='menu-container-item menu-container-dinner-combo'>
                                     <Card 
