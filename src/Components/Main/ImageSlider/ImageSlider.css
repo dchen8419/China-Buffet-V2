@@ -22,7 +22,7 @@
 .right-arrow {
     position: absolute;
     top: 50%;
-    right: 32px;
+    right: 50px;
     font-size: 3rem;
     color: black;
     z-index: 10;
@@ -34,7 +34,7 @@
 .left-arrow {
     position: absolute;
     top: 50%;
-    left: 32px;
+    left: 50px;
     font-size: 3rem;
     color: black;
     z-index: 10;
@@ -54,9 +54,3 @@
     transform: scale(1.08);
 }
 
-@media (max-width: 844px) {
-    .image {
-        width: 200em;
-        height: 200em;
-    }
-}

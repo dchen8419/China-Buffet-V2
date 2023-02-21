@@ -1,4 +1,4 @@
-.greatwall-image {
+.contact-greatwall-image {
     margin: auto;
     display: block;
     border: 5px solid goldenrod;
@@ -6,21 +6,37 @@
     height: 28em;
 }
 
-.container {
+.contact-back-ground {
+    background-color: lightgray;
+}
+
+
+
+.contact-ul-list {
+    display: inline;
+}
+
+.contact-container {
     display: flex;
-    background-color: lightgrey;
-    align-content: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
 }
 
-.container div {
-    background-color: azure;
-    align-items: center;
+.contact-container-item {
     margin: 60px;
-    width: 100%;
+    width: 500px;
+    background-color: white;
 }
 
-.back-ground {
-    background-color: lightgray;
+.contact-container-contact {
+    min-height: 100px;
+}
+
+.contact-container-open {
+    min-height: 200px;
+}
+
+.contact-container-newyorkstyle {
+    min-height: 300px;
 }
