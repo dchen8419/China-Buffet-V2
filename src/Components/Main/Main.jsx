@@ -5,12 +5,14 @@ import './Main.css'
 
 function Main() {
     return (
-        <div className='front-background' >
-            <div>
-                <h1 className='front-page-title'>Welcome to China Buffet</h1>
-                <h1 className='front-page-title'>Dillon, SC</h1>
+        <div className='front-background '>
+            <div className='front-container'>
+                <ul>
+                    <h1>Welcome to China Buffet</h1>
+                    <h1>of Dillon, SC</h1>
+                </ul>
             </div>
-            <div className='front-page-background'>
+            <div>
                 <ImageSlider slides={SliderData}/>
             </div>
         </div>

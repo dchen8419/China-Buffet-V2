@@ -2,14 +2,12 @@
     margin: auto;
     display: block;
     border: 5px solid goldenrod;
-    width: 55%;
-    height: 28em;
+    width: 40%;
 }
 
 .contact-back-ground {
     background-color: lightgray;
 }
-
 
 
 .contact-ul-list {
