@@ -5,7 +5,7 @@ import './Main.css'
 
 function Main() {
     return (
-        <div>
+        <div className='front-background' >
             <div>
                 <h1 className='front-page-title'>Welcome to China Buffet</h1>
                 <h1 className='front-page-title'>Dillon, SC</h1>
