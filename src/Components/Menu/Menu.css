@@ -3,7 +3,7 @@
 }
 
 .menu-background {
-    background-color: rgb(6, 139, 118);
+    background-color: lightgray;
 }
 
 .menu-container {
@@ -17,7 +17,7 @@
     margin: 30px;
     width: 700px;
     border: 4px solid #333;
-    background-color: rgb(159, 1, 2);
+    background-color: white;
 }
 
 .menu-container-item-1 {

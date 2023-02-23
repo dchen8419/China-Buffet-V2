@@ -9,7 +9,7 @@ function Main() {
             <div className='front-container'>
                 <ul>
                     <h1>Welcome to China Buffet</h1>
-                    <h1>of Dillon, SC</h1>
+                    <h3>Dillon, SC</h3>
                 </ul>
             </div>
             <div>
