@@ -28,7 +28,7 @@ function Contact() {
                             <p>1 (843) - 841 - 3188</p>
                         </div>
                         <div className='contact-container-item contact-container-newyorkstyle'>
-                            <h1>New York Style</h1>
+                            <h1>Buffet Hours</h1>
                             <h3>Lunch Buffet</h3>
                             <p>11:00 am - 4:00 pm</p>
                             <h3>Dinner Buffet</h3>
