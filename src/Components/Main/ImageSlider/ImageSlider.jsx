@@ -34,7 +34,7 @@ const ImageSlider = ({slides}) => {
                         )
                     })}
             </div>
-            <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide}/>
+                <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide}/>
         </div>
         
     )

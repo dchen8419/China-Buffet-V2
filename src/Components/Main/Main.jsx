@@ -8,7 +8,7 @@ function Main() {
         <div className='front-background '>
             <div className='front-container'>
                 <ul>
-                    <h1>Welcome to China Buffet</h1>
+                    <h1 className='front-welcome'>Welcome to China Buffet</h1>
                     <h3 className='front-location-font-style'>Dillon, SC</h3>
                 </ul>
             </div>
