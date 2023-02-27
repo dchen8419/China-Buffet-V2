@@ -2,7 +2,8 @@
     margin: auto;
     display: block;
     border: 5px solid goldenrod;
-    width: 40%;
+    width: 75%;
+    max-height: 600px;
 }
 
 .contact-back-ground {
@@ -38,3 +39,4 @@
 .contact-container-newyorkstyle {
     min-height: 300px;
 }
+

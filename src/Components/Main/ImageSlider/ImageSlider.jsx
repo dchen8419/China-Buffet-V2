@@ -22,12 +22,7 @@ const ImageSlider = ({slides}) => {
 
     return (
         <div className='front-page-background'>
-                <div>
-                    <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
-                </div>
-                <div>
-                    <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide}/>
-                </div>
+                <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
             <div className='slider'>
                     {SliderData.map((slide, index) => {
                         return (
@@ -39,6 +34,7 @@ const ImageSlider = ({slides}) => {
                         )
                     })}
             </div>
+            <FaArrowAltCircleRight className="right-arrow"  onClick={nextSlide}/>
         </div>
         
     )
