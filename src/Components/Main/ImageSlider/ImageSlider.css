@@ -35,12 +35,12 @@
     z-index: 10;
     cursor: pointer;
     user-select: none;
-    padding-right: 48px;
+    padding-right: 45px;
 }
 
 .slide {
     opacity: 0;
-    transition-duration: 1s ease;
+    transition-duration: 5s ease;
 
 }
 

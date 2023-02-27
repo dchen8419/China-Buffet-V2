@@ -3,10 +3,11 @@
     display: block;
     border: 5px solid goldenrod;
     width: 75%;
-    max-height: 600px;
+    max-height: 650px;
 }
 
 .contact-back-ground {
+    padding-top: 30px;
     background-color: lightgray;
 }
 
