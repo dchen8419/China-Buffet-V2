@@ -15,7 +15,7 @@
     text-align: center;
     margin-bottom: 24px;
     padding: 24px;
-    color: #fff;
+    color: goldenrod;
 }
 
 .footer-subscription > p {
@@ -47,7 +47,7 @@
     border: none;
     font-size: 18px;
     margin-bottom: 16px;
-    border: 1px solid #fff;
+    border: 1px solid goldenrod;
 }
 
 .footer-link-wrapper {
@@ -69,11 +69,11 @@
 }
 
 .footer-link-items > h2 {
-    color: #fff;
+    color: goldenrod;
 }
 
 .footer-link-items a {
-    color: #fff;
+    color: goldenrod;
     text-decoration: none;
     margin-bottom: 8px;
 }
