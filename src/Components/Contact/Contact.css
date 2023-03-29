@@ -7,7 +7,6 @@
 }
 
 .contact-back-ground {
-    padding-top: 30px;
     background-color: lightgray;
 }
 
@@ -39,5 +38,10 @@
 
 .contact-container-newyorkstyle {
     min-height: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
