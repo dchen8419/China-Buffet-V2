@@ -14,10 +14,15 @@ function Contact() {
                         <div className='contact-container-item contact-container-contact'>
                             <h1>Contact</h1>
                             <h3>Address</h3>
-                            <p>208 Hwy 301 N</p>
-                            <p>Dillon, SC 29536</p>
+                            <a href="https://goo.gl/maps/XhC3wQutCKU6dgvS7">
+                                <p>208 Hwy 301 N</p>
+                                <p>Dillon, SC 29536</p>
+                            </a>
                             <h3>Contact for Hiring</h3>
-                            <p>1 (843) - 841 - 3188</p>
+                            <a href="tel:843-841-3188">
+                                <p>(843)841-3188</p>
+                            </a>
+                            
                         </div>
                         <div className='contact-container-item contact-container-open'>
                             <h1>Open 7 days</h1>
@@ -25,7 +30,9 @@ function Contact() {
                             <p>Fri. & Sat. : 11:00 am - 10:00 pm</p>
                             <p>Sunday: 11:30 am - 9:00 pm</p>
                             <h3>For Carry Out Orders</h3>
-                            <p>1 (843) - 841 - 3188</p>
+                            <a href="tel:843-841-3188">
+                                <p>(843)841-3188</p>
+                            </a>
                         </div>
                         <div className='contact-container-item contact-container-newyorkstyle'>
                             <h1>Buffet Hours</h1>
