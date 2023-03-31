@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import {
   Routes,
@@ -8,19 +7,21 @@ import Main from './Components/Main/Main';
 import Navbar from './Components/Navbar/Navbar';
 import Contact from './Components/Contact/Contact';
 import Menu from './Components/Menu/Menu';
-import About from './Components/About/About'
+// import About from './Components/About/About'
 import { Footer } from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
 
 
 function App() {
   return (
     <div>
+      <Header />
       <Navbar />
       <Routes>
         <Route path="/" element={<Main />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/menu" element={<Menu />}/>
-        <Route path="/about" element={<About />}/>
+        {/* <Route path="/about" element={<About />}/> */}
       </Routes>
       <Footer />
     </div>

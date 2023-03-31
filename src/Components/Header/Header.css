@@ -1,0 +1,35 @@
+.header-container {
+    display: flex;
+    background-color: lightgray;
+    align-content: center;
+    justify-content: center;
+}
+
+.header-container div {
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.header-location {
+    background: linear-gradient(rgb(138, 0, 0), red)
+}
+
+.header-phone {
+    background: linear-gradient(rgb(138, 0, 0), red)
+}
+
+
+@media only screen and (max-width: 1024px) {
+    span.text {
+        display: none;
+    }
+}

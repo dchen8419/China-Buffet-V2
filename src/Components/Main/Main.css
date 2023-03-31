@@ -2,9 +2,6 @@
     background-color: lightgrey;
 }
 
-/* .front-welcome {
-    text-align: center;
-} */
 
 .front-location-font-style {
     font-style: oblique;
@@ -16,6 +13,8 @@
     justify-content: center;
     text-align: center;
 }
+
+
 
 @media screen and (max-width: 375px) {
 

@@ -26,31 +26,6 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
-    // return (
-    //     <nav>
-    //         <div onClick={handleClick}>
-    //             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-    //         </div>
-    //         <ul className='nav-links'>
-    //             <Link className='nav-style' to="/" onClick={closeMobileMenu}>
-    //                 <li>Home</li>
-    //             </Link>
-    //             <Link className='nav-style' to="/menu" onClick={closeMobileMenu}>
-    //                 <li>Menu</li>
-    //             </Link>
-    //             <Link className='nav-style' to="/about" onClick={closeMobileMenu}>
-    //                 <li>About</li>
-    //             </Link>
-    //             <Link className='nav-style' to="/contact" onClick={closeMobileMenu}>
-    //                 <li>Contact</li>
-    //             </Link>
-    //         </ul>
-    //         <div>
-    //         {/* {button && <Button buttonStyle='btn--outline'></Button>} */}
-    //         </div>
-    //     </nav>
-    // )
-
     return (
         <>
             <nav className="navbar">
@@ -72,11 +47,11 @@ function Navbar() {
                                 Menu
                             </Link>
                         </li>
-                        <li className='nav-item'>
+                        {/* <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                                 About
                             </Link>
-                        </li>
+                        </li> */}
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                                 Contact
