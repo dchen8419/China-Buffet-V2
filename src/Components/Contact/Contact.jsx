@@ -26,8 +26,8 @@ function Contact() {
                         </div>
                         <div className='contact-container-item contact-container-open'>
                             <h1>Open 7 days</h1>
-                            <p>Mon. - Thurs. : 11:00 am - 9:30 pm</p>
-                            <p>Fri. & Sat. : 11:00 am - 10:00 pm</p>
+                            <p>Monday - Thursday : 11:00 am - 9:30 pm</p>
+                            <p>Friday & Satday : 11:00 am - 10:00 pm</p>
                             <p>Sunday: 11:30 am - 9:00 pm</p>
                             <h3>For Carry Out Orders</h3>
                             <a href="tel:843-841-3188">
