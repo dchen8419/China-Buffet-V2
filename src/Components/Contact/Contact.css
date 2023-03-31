@@ -8,6 +8,7 @@
 
 .contact-back-ground {
     background-color: lightgray;
+    padding-top: 40px;
 }
 
 
@@ -26,6 +27,7 @@
     margin: 60px;
     width: 500px;
     background-color: white;
+    border: 5px solid goldenrod;
 }
 
 .contact-container-contact {
